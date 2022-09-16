@@ -1,0 +1,1009 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+* {
+  margin: 0;
+  /* font-family: 'Fredoka', sans-serif; */
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  border: none;
+}
+.nav-bar {
+  background-color: #FBF3E4;
+  height: 7vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 1px 10px gray;
+}
+
+nav ul {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-right: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.sideBar {
+  display: none;
+}
+#intro {
+  background-color:#105652;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-image: url(./images/wave3.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+#intro #introContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jobTitle {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.startImg {
+  width: 70%;
+  height: 100%;
+  border-radius: 15px;
+  position: relative;
+  left: 30%;
+  top: 30px;
+}
+.gif {
+  overflow: hidden;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+#hireMe {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #09bdac;
+}
+#getResume {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fca738;
+}
+#mainContent {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(0.95);
+}
+
+.updatedPortfolio button {
+  background-color: rgb(43, 234, 173);
+  border: none;
+  border-radius: 5px;
+  padding: 2%;
+  margin-top: 2%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#about {
+  background-color:grey;
+  height: 100vh;
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#aboutContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 80vw;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 5% 3%;
+  box-shadow: 1px 1px 10px #888888;
+}
+.aboutImg {
+  padding-right: 5%;
+}
+.aboutSvg {
+  width: fit-content;
+  height: 30vh;
+}
+#aboutDetails h2 {
+  padding-bottom: 5px;
+  border-bottom: 5px solid orange;
+  display: inline-block;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-right: 10px;
+  height: fit-content;
+}
+
+.languages {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.languages li {
+  list-style: none;
+  /* display: inline-block; */
+  margin-left: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#projects {
+  background-color:grey;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  color: white;
+}
+
+.mySlides img:hover {
+  opacity: 0.8;
+  content: "Live Preview";
+}
+
+.otherProjects {
+  background-color: grey;
+  text-align: center;
+  padding-top: 5rem;
+  width: 100%;
+  height: fit-content;
+}
+
+.otherProjects p a {
+  color: white;
+}
+
+.otherProjectslink {
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+#resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 5%;
+  width: 80vw;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 5% 3%;
+  box-shadow: 1px 1px 10px #888888;
+}
+#resume div .title {
+  border-bottom: 5px solid orange;
+  width: 16%;
+  padding-bottom: 10px;
+}
+/* .certificates {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 20px 0 0 0;
+  height: fit-content;
+  gap: 10px;
+}
+.certificatesHead {
+  border-bottom: 5px solid orange;
+  padding-bottom: 10px;
+}
+.certificates div {
+  
+  height: 9vh;
+} */
+.linkBtn {
+  border: none;
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 1px 10px;
+  cursor: pointer;
+}
+
+#resumeSvg img {
+  width: 40vw;
+  height: 40vh;
+ position: relative;
+ left: 20%;
+ border-radius: 20px;
+}
+
+.education {
+  border-bottom: 2px solid goldenrod;
+  width: fit-content;
+}
+
+.container {
+  padding: 20px 40px;
+  border-radius: 5px;
+  width: 70%;
+  height: fit-content;
+}
+
+.container h1 {
+  text-align: center;
+  /* margin-bottom: 30px; */
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 40%;
+  background: lightblue;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.text {
+  margin-top: 30px;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 19vw;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px black solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: black;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: black;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: black;
+  transform: translateY(-30px);
+}
+#contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(https://images.unsplash.com/photo-1528747045269-390fe33c19f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.connect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  height: 68.5vh;
+  /* background-color: #fbf3e4; */
+  background-color: #FBF3E4;
+  padding: 20px 40px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  overflow-y: hidden;
+}
+.letsConnect {
+  text-align: center;
+}
+
+.letsConnect h2 {
+  width: 100%;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  padding: 10px;
+  font-size: large;
+}
+/* .contact-list li a:hover {
+    transform: scale(0.8);
+} */
+
+footer {
+  /* margin-top: 10vh; */
+  height: 10vh;
+  background-color: #fbf3e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkcyan;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 100px;
+}
+.hi {
+  display: none;
+  width: 100vw;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+#main2 {
+  display: none;
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+.openNav {
+  width: 250px;
+}
+
+.container2 {
+  display: flex;
+  width: 80vw;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: all 0.5s ease-in;
+}
+
+.panel h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+  color: #000;
+  background-color: goldenrod;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 0.4s;
+}
+.panel h3 span {
+  content: "";
+}
+.panel h3:hover span {
+  transform: scale(0.95);
+  display: none;
+}
+
+.panel h3 a:hover::before {
+  content: "Live Preview!";
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.containerProjects {
+  position: relative;
+  box-sizing: border-box;
+  /* height: 10vh; */
+  width: 75vw;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* ____________________________________________________ */
+@media all and (max-width: 1390px) {
+  canvas {
+    display: none;
+  }
+
+  #intro {
+    height: fit-content;
+  }
+  #intro #introContainer {
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -130px;
+  }
+
+  .hi {
+    display: inline;
+    width: 100vw;
+  }
+  .gif {
+    width: 700px;
+    height: 400px;
+    position: relative;
+    right: 80px;
+    top: 70px;
+  }
+  #hireMe {
+    padding: 1vw 3vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #09bdac;
+  }
+  #getResume {
+    padding: 1vw 3vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #fca738;
+  }
+  .btn-bar {
+    position: relative;
+  }
+}
+
+/* _____________________________________++++++++++++++++++++ */
+
+@media all and (max-width: 1210px) {
+  #resumeSvg {
+    display: none;
+  }
+  .aboutImg {
+    display: none;
+  }
+}
+
+/* _____________________________________++++++++++++++++++++ */
+
+@media all and (max-width: 1040px) {
+  #intro {
+    flex-direction: column;
+  }
+  #intro #introContainer {
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+    overflow: hidden;
+  }
+  .hi {
+    display: inline;
+  }
+  .gif {
+    width: 600px;
+    height: 350px;
+    position: relative;
+    right: 80px;
+    top: 70px;
+    overflow: hidden;
+  }
+  .startImg {
+    height: fit-content;
+  }
+  /* #resume {
+        height: fit-content;
+        padding: 15px;
+        margin: 40px;
+    } */
+  #contact {
+    height: fit-content;
+    /* padding: 15px; */
+  }
+  .connect {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+  .letsConnect {
+    height: fit-content;
+    width: fit-content;
+    /* padding: 15px; */
+    /* background-color: red; */
+  }
+  .letsConnect h2 {
+    position: relative;
+    left: 30px;
+  }
+  .container {
+    width: 360px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  .container h1 {
+    margin-bottom: 30px;
+  }
+  .form-control label {
+    position: relative;
+    margin: 0;
+    top: 6px;
+  }
+  .form-control {
+    width: fit-content;
+    margin: 0;
+    height: 90px;
+  }
+  .form {
+    width: fit-content;
+    margin: 0;
+    /* padding: 0; */
+  }
+  .form-control input {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  .form-control input label {
+    margin-top: 10px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .certificates div {
+    height: 11vh;
+  }
+  .languages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .contact-list li {
+    margin: 0;
+    display: block;
+  }
+}
+
+/* )))))))))))))))))))))))))))))))))) */
+@media all and (max-width: 780px) {
+  #mainContent {
+    margin-top: 35%;
+  }
+
+  canvas {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .nav-head {
+    margin-left: 16px;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  #intro {
+    flex-direction: column;
+    height: fit-content;
+    /* top: -100px; */
+    background-image: none;
+    /* margin-bottom: 0; */
+  }
+  #intro #introContainer {
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    /* bottom: 500px; */
+    /* top: -130px; */
+  }
+
+  .hi {
+    display: inline;
+  }
+  .gif {
+    width: 700px;
+    height: 400px;
+    position: relative;
+    right: 80px;
+  }
+  #hireMe {
+    padding: 3vw 5vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #09bdac;
+  }
+  #getResume {
+    padding: 3vw 5vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #fca738;
+  }
+  .btn-bar {
+    position: relative;
+  }
+  #about {
+    position: relative;
+    bottom: 2px;
+  }
+  #projects {
+    height: fit-content;
+    position: relative;
+    bottom: 4px;
+  }
+
+  #resume div .title {
+    border-bottom: 5px solid orange;
+    width: fit-content;
+    padding-bottom: 10px;
+  }
+  #resume {
+    height: fit-content;
+    padding: 40px;
+    /* margin: 40px; */
+    position: relative;
+    bottom: 6px;
+  }
+  #contact {
+    height: fit-content;
+    /* padding: 15px; */
+    /* background-size: cover; */
+    position: relative;
+    bottom: 6px;
+  }
+  .connect {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+  .letsConnect {
+    height: fit-content;
+    width: fit-content;
+    /* padding: 15px; */
+    /* background-color: red; */
+  }
+  .letsConnect h2 {
+    position: relative;
+    left: 30px;
+  }
+  .container {
+    width: 360px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  .form-control label {
+    position: relative;
+    margin: 0;
+    top: -27px;
+  }
+  .form-control {
+    width: fit-content;
+    margin: 0;
+    height: 90px;
+  }
+  .form {
+    width: fit-content;
+    margin: 0;
+    /* padding: 0; */
+  }
+  .form-control input {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  .form-control input label {
+    margin-top: 10px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .sideBar {
+    display: inline-block;
+    font-size: larger;
+    position: absolute;
+    top: 20px;
+    left: 350px;
+  }
+  #main2 {
+    display: inline-block;
+    font-size: larger;
+    /* position: absolute;
+        top: 5px;
+        left: 300px; */
+  }
+  .certificates div {
+    height: 11vh;
+  }
+  /* .languages {
+        display: flex;
+        flex-direction: column;
+    } */
+  .contact-list li {
+    margin: 0;
+    display: block;
+  }
+  footer {
+    position: relative;
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #mainContent {
+    margin-top: 35%;
+  }
+  .hi {
+    font-size: 40px;
+  }
+  .jobTitle {
+    font-size: 36px;
+    padding: 10px;
+  }
+  .container2 {
+    display: block;
+    width: 80vw;
+    height: fit-content;
+    flex-direction: column;
+  }
+
+  .otherProjects {
+    height: 50px;
+  }
+  .panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: all 0.5s ease-in;
+  }
+
+  .panel h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0.8;
+    color: #000;
+    background-color: goldenrod;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .panel.active {
+    flex: 5;
+  }
+
+  .panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.4s ease-in 0.4s;
+  }
+  .containerProjects {
+    position: relative;
+    /* box-sizing: border-box; */
+    /* height: 10vh; */
+    width: 90vw;
+  }
+  .prev,
+  .next {
+    top: 55%;
+  }
+  .updatedPortfolio button {
+    width: 80%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  #aboutContent {
+    height: fit-content;
+  }
+  #aboutDetails {
+    padding: 26px;
+  }
+  .letsConnect {
+    text-align: left;
+  }
+  footer {
+    text-align: center;
+  }
+}
