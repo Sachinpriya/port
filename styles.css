@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 * {
   margin: 0;
-  /* font-family: 'Fredoka', sans-serif; */
+ 
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
 }
@@ -124,7 +124,7 @@ button:hover {
 #about {
   background-color:grey;
   height: 100vh;
-  /* width: 100vw; */
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,7 +187,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
+ 
   color: white;
 }
 
@@ -231,23 +231,7 @@ li {
   width: 16%;
   padding-bottom: 10px;
 }
-/* .certificates {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  flex-direction: column;
-  margin: 20px 0 0 0;
-  height: fit-content;
-  gap: 10px;
-}
-.certificatesHead {
-  border-bottom: 5px solid orange;
-  padding-bottom: 10px;
-}
-.certificates div {
-  
-  height: 9vh;
-} */
+
 .linkBtn {
   border: none;
   border-radius: 5px;
@@ -278,7 +262,7 @@ li {
 
 .container h1 {
   text-align: center;
-  /* margin-bottom: 30px; */
+ 
 }
 
 .container a {
@@ -357,7 +341,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url(https://images.unsplash.com/photo-1528747045269-390fe33c19f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80); */
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -370,11 +354,11 @@ li {
   justify-content: space-between;
   width: 60%;
   height: 68.5vh;
-  /* background-color: #fbf3e4; */
+ 
   background-color: #FBF3E4;
   padding: 20px 40px;
   border-radius: 5px;
-  /* border: 1px solid black; */
+
   overflow-y: hidden;
 }
 .letsConnect {
@@ -394,12 +378,9 @@ li {
   padding: 10px;
   font-size: large;
 }
-/* .contact-list li a:hover {
-    transform: scale(0.8);
-} */
 
 footer {
-  /* margin-top: 10vh; */
+ 
   height: 10vh;
   background-color: #fbf3e4;
   display: flex;
@@ -505,25 +486,25 @@ canvas {
   content: "Live Preview!";
 }
 
-/* Position the image container (needed to position the left and right arrows) */
+
 .containerProjects {
   position: relative;
   box-sizing: border-box;
-  /* height: 10vh; */
+ 
   width: 75vw;
 }
 
-/* Hide the images by default */
+
 .mySlides {
   display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
+
 .cursor {
   cursor: pointer;
 }
 
-/* Next & previous buttons */
+
 .prev,
 .next {
   cursor: pointer;
@@ -540,19 +521,18 @@ canvas {
   -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -561,7 +541,7 @@ canvas {
   top: 0;
 }
 
-/* Container for image text */
+
 .caption-container {
   text-align: center;
   background-color: #222;
@@ -575,13 +555,13 @@ canvas {
   clear: both;
 }
 
-/* Six columns side by side */
+
 .column {
   float: left;
   width: 16.66%;
 }
 
-/* Add a transparency effect for thumnbail images */
+
 .demo {
   opacity: 0.6;
 }
